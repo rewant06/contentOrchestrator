@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Orchestrator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main Container for form & input data of system -->
+    <div class="main-container">
+      <!-- Heading For Content Management Tool -->
+      <header>
+        <h1>Content Orchestrator</h1>
+      </header>
+
+      <!-- Top Image For CMT -->
+      <div class="top-image">
+        <img src="pp3.jpg" alt="Image" class="hero-image" />
+      </div>
+
+      <!-- Form Section For CMT -->
+      <section class="container">
+        <form action="user-input">
+          <div class="input-section">
+            <label for="title"><b class="label-text">Title</b></label>
+            <input
+              type="text"
+              class="input"
+              id="title"
+              placeholder="Enter Title"
+            />
+          </div>
+
+          <br />
+
+          <div class="input-section">
+            <label for="content"><b class="label-text">Content</b></label>
+            <input
+              type="text"
+              class="input"
+              id="content"
+              placeholder="Enter Content"
+            />
+          </div>
+
+          <br />
+
+          <div class="input-section">
+            <label for="image"><b class="label-text">Image</b></label>
+            <input
+              type="file"
+              class="input-media"
+              id="image"
+              placeholder="Upload Image"
+              accept="image/*"
+            />
+          </div>
+
+          <br />
+
+          <div class="input-section">
+            <label for="video"><b class="label-text">Video</b></label>
+            <input
+              type="file"
+              class="input-media"
+              id="video"
+              placeholder="Upload Video"
+              accept="video/*"
+            />
+          </div>
+        </form>
+      </section>
+
+      <br />
+
+      <!-- Form Submit Button For CMT -->
+      <button onclick="submitForm()">SUBMIT</button>
+    </div>
+
+    <!-- Data Container For Preview Image, Video & Data Submitted by the user -->
+    <div class="data-container">
+      <div class="data-section" id="dataSection"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

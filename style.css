@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #bcc0c1;
+}
+
+header h1 {
+  background-color: goldenrod;
+  margin-top: 20px;
+  font-size: 37px;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+
+div .hero-image {
+  width: 650px;
+  height: 450px;
+  margin-top: 25px;
+  margin-inline: 435px;
+  border: 3px solid black;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  padding: 20px;
+}
+
+.label-text {
+  font-size: 18px;
+}
+
+.container input {
+  border: none;
+  outline: none;
+  padding: 12px;
+  margin-block: 12px;
+  font-size: 16px;
+}
+
+.container input[type="text"] {
+  width: 70%;
+}
+
+.container input[type="text"]:focus {
+  background-color: #e9e2e2;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: large;
+  font-weight: 450;
+  background-color: #3baa3b;
+  color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2c852c;
+}
+
+/* Styling For Preview Image, Video & Data Of Content Management Tool */
+.data-container {
+  background-color: #bcc0c1;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.card-title {
+  font-size: 37px;
+  padding: 5px 15px;
+}
+
+.card-body {
+  font-size: 37px;
+  padding: 5px 15px;
+}
+
+.card-body-image .preview {
+  width: 20rem;
+}
+
+.card-body-video .video-preview {
+  width: 20rem;
+}
